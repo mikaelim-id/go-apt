@@ -8,7 +8,7 @@ import (
 )
 
 func getManager(t *testing.T) RedisInterface {
-	manager, err := NewFazzRedis("localhost:6379", "cashfazz")
+	manager, err := NewFazzRedis("localhost:6379", "cashfazz", "")
 	if err != nil {
 		t.Fatalf("cannot connect to redis!")
 	}
@@ -16,7 +16,7 @@ func getManager(t *testing.T) RedisInterface {
 }
 
 func TestFailingConnect(t *testing.T) {
-	_, err := NewFazzRedis("localhost:6379", "")
+	_, err := NewFazzRedis("localhost:6379", "", "")
 	if err == nil {
 		t.Fatalf("should not be connected to redis!")
 	}

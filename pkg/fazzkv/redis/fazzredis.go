@@ -1,6 +1,8 @@
 package redis
 
 import (
+	"crypto/tls"
+	"crypto/x509"
 	"errors"
 	"time"
 
@@ -80,12 +82,31 @@ func (kv *fazzRedis) GetClient() *redis.Client {
 }
 
 // NewFazzRedis is a function that act as constructor and injector for FazzRedis.
-func NewFazzRedis(addr string, password string) (RedisInterface, error) {
+
+// NewFazzRedis is a function that act as constructor and injector for FazzRedis.
+func NewFazzRedis(addr string, password string, certificate string) (RedisInterface, error) {
+	tlsConfig := &tls.Config{}
+	if certificate != "" {
+		certPool := x509.NewCertPool()
+		ok := certPool.AppendCertsFromPEM([]byte(certificate))
+		if !ok {
+			panic("Failed to parse redis certificate")
+		}
+
+		tlsConfig = &tls.Config{
+			RootCAs: certPool,
+		}
+	} else {
+		tlsConfig = nil
+	}
+
 	client := redis.NewClient(&redis.Options{
-		Addr:     addr,
-		Password: password,
-		DB:       0,
+		Addr:      addr,
+		Password:  password,
+		DB:        0,
+		TLSConfig: tlsConfig,
 	})
+
 	if err := client.Ping().Err(); err != nil {
 		return nil, err
 	}
