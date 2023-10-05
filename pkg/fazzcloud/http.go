@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/payfazz/go-apt/pkg/fazzcommon/formatter"
-	"github.com/payfazz/go-apt/pkg/fazzmonitor/prometheusclient"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/formatter"
+	"github.com/mikaelim-id/go-apt/pkg/fazzmonitor/prometheusclient"
 )
 
 const (

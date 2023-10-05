@@ -1,6 +1,6 @@
 package eventpostgres
 
-import "github.com/payfazz/go-apt/pkg/fazzdb"
+import "github.com/mikaelim-id/go-apt/pkg/fazzdb"
 
 // CreateEventsTable return migration table for event
 func CreateEventsTable(name string) *fazzdb.MigrationTable {

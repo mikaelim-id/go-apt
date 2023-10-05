@@ -8,9 +8,9 @@ import (
 
 	"github.com/jinzhu/now"
 
-	"github.com/payfazz/go-apt/pkg/fazzcommon/formatter"
-	"github.com/payfazz/go-apt/pkg/fazzcommon/value/pagination"
-	"github.com/payfazz/go-apt/pkg/fazzcommon/value/timestamp"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/formatter"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/value/pagination"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/value/timestamp"
 	"github.com/pkg/errors"
 )
 

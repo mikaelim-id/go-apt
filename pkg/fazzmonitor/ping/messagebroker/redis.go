@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/payfazz/go-apt/pkg/fazzmonitor/ping"
+	"github.com/mikaelim-id/go-apt/pkg/fazzmonitor/ping"
 )
 
 type RedisReport struct {

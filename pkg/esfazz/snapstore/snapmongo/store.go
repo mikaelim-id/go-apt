@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/payfazz/go-apt/pkg/esfazz/snapstore"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz/snapstore"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

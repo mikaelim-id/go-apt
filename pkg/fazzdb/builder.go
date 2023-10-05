@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/payfazz/go-apt/pkg/fazzcommon/formatter"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/formatter"
 )
 
 var once sync.Once

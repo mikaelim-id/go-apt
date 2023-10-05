@@ -3,9 +3,9 @@ package fazzdb_sample
 import (
 	"fmt"
 
-	"github.com/payfazz/go-apt/example/fazzdb/fazzdb_sample/model"
+	"github.com/mikaelim-id/go-apt/example/fazzdb/fazzdb_sample/model"
 
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 func AllAuthors(query *fazzdb.Query) {

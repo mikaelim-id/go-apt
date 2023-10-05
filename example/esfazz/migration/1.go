@@ -1,8 +1,8 @@
 package migration
 
 import (
-	"github.com/payfazz/go-apt/pkg/esfazz/eventstore/eventpostgres"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz/eventstore/eventpostgres"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 var Version1 = fazzdb.MigrationVersion{

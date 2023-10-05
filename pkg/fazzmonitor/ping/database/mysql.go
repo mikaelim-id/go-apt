@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
-	"github.com/payfazz/go-apt/pkg/fazzmonitor/ping"
+	"github.com/mikaelim-id/go-apt/pkg/fazzmonitor/ping"
 )
 
 type MySQLReport struct {

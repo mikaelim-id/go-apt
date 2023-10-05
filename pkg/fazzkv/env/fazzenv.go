@@ -3,7 +3,7 @@ package env
 import (
 	"os"
 
-	"github.com/payfazz/go-apt/pkg/fazzkv"
+	"github.com/mikaelim-id/go-apt/pkg/fazzkv"
 )
 
 type env struct {

@@ -1,6 +1,6 @@
 package fazzconfig
 
-import "github.com/payfazz/go-apt/pkg/fazzconfig/configsource"
+import "github.com/mikaelim-id/go-apt/pkg/fazzconfig/configsource"
 
 // ConfigReader is config reader interface
 type ConfigReader interface {

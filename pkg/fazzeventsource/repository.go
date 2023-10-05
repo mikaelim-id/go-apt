@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 // RepositoryInterface is interface for event repository

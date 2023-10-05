@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"github.com/payfazz/go-apt/pkg/esfazz"
-	"github.com/payfazz/go-apt/pkg/esfazz/snapstore"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz/snapstore"
 )
 
 // SnapshotSaver return function that will save event to snapshot

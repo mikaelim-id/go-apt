@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"sync"
 
-	"github.com/payfazz/go-apt/pkg/esfazz"
-	"github.com/payfazz/go-apt/pkg/esfazz/eventstore"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz/eventstore"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

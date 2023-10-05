@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/payfazz/go-apt/pkg/fazzmonitor/ping"
+	"github.com/mikaelim-id/go-apt/pkg/fazzmonitor/ping"
 )
 
 type HttpServiceReport struct {

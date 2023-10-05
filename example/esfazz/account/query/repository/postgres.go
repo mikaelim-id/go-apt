@@ -2,8 +2,8 @@ package repository
 
 import (
 	"context"
-	"github.com/payfazz/go-apt/example/esfazz/account/model"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/example/esfazz/account/model"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 // AccountRepository is repository interface for account

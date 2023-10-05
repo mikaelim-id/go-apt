@@ -1,6 +1,6 @@
 package fazzeventsource
 
-import "github.com/payfazz/go-apt/pkg/fazzdb"
+import "github.com/mikaelim-id/go-apt/pkg/fazzdb"
 
 // EventLog is struct for event log structure in database
 type EventLog struct {

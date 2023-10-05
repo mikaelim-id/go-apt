@@ -1,6 +1,6 @@
 package migration
 
-import "github.com/payfazz/go-apt/pkg/fazzdb"
+import "github.com/mikaelim-id/go-apt/pkg/fazzdb"
 
 var Version1 = fazzdb.MigrationVersion{
 	Tables: []*fazzdb.MigrationTable{

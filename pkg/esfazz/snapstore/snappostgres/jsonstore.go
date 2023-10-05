@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/jmoiron/sqlx/types"
-	"github.com/payfazz/go-apt/pkg/esfazz/snapstore"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz/snapstore"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 type jsonSnapshotStore struct {

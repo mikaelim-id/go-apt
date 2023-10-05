@@ -1,6 +1,6 @@
 package snappostgres
 
-import "github.com/payfazz/go-apt/pkg/fazzdb"
+import "github.com/mikaelim-id/go-apt/pkg/fazzdb"
 
 // CreateSnapshotsTable return migration table for event
 func CreateSnapshotsTable(name string) *fazzdb.MigrationTable {

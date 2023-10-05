@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/payfazz/go-apt/pkg/fazzcommon/formatter"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/formatter"
 )
 
 // FazzMetaModel is a constructor of FazzMeta model

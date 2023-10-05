@@ -1,8 +1,8 @@
 package seed
 
 import (
-	"github.com/payfazz/go-apt/example/fazzdb/fazzdb_sample/model"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/example/fazzdb/fazzdb_sample/model"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 type BookObjectSeed struct {

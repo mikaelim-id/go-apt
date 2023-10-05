@@ -2,7 +2,7 @@ package snappostgres
 
 import (
 	"github.com/jmoiron/sqlx/types"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 // AggregateRow is a model for aggregate snapshot in database

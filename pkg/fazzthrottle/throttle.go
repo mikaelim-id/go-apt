@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/payfazz/go-apt/pkg/fazzcommon/formatter"
-	"github.com/payfazz/go-apt/pkg/fazzcommon/httpError"
-	"github.com/payfazz/go-apt/pkg/fazzcommon/response"
-	"github.com/payfazz/go-apt/pkg/fazzkv/redis"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/formatter"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/httpError"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/response"
+	"github.com/mikaelim-id/go-apt/pkg/fazzkv/redis"
 )
 
 // REDIS_NIL_ERROR redis: nil

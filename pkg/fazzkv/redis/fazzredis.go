@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis"
-	"github.com/payfazz/go-apt/pkg/fazzkv"
+	"github.com/mikaelim-id/go-apt/pkg/fazzkv"
 )
 
 // RedisInterface is abstraction layer redis that wrap store interface with addition

@@ -3,9 +3,9 @@ package esrepo
 import (
 	"context"
 	"encoding/json"
-	"github.com/payfazz/go-apt/pkg/esfazz"
-	"github.com/payfazz/go-apt/pkg/esfazz/eventstore"
-	"github.com/payfazz/go-apt/pkg/esfazz/snapstore"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz/eventstore"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz/snapstore"
 )
 
 type eventSourceRepository struct {

@@ -3,9 +3,9 @@ package eventpostgres
 import (
 	"context"
 	_ "github.com/lib/pq"
-	"github.com/payfazz/go-apt/config"
-	"github.com/payfazz/go-apt/pkg/esfazz"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/config"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 	"testing"
 )
 

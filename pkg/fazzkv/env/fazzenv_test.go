@@ -3,7 +3,7 @@ package env
 import (
 	"testing"
 
-	"github.com/payfazz/go-apt/pkg/fazzkv"
+	"github.com/mikaelim-id/go-apt/pkg/fazzkv"
 	"github.com/stretchr/testify/require"
 )
 

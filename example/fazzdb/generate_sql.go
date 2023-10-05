@@ -6,8 +6,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/payfazz/go-apt/example/fazzdb/fazzdb_sample/migration"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/example/fazzdb/fazzdb_sample/migration"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 const (

@@ -1,8 +1,8 @@
 package migration
 
 import (
-	"github.com/payfazz/go-apt/example/fazzdb/fazzdb_sample/seed"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/example/fazzdb/fazzdb_sample/seed"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 var bookStatusEnum = fazzdb.NewEnum(

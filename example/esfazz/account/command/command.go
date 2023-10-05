@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 	"github.com/gofrs/uuid"
-	"github.com/payfazz/go-apt/example/esfazz/account/model"
-	"github.com/payfazz/go-apt/pkg/esfazz/esrepo"
+	"github.com/mikaelim-id/go-apt/example/esfazz/account/model"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz/esrepo"
 )
 
 // AccountCommand is an interface for account command

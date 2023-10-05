@@ -1,4 +1,4 @@
-module github.com/payfazz/go-apt
+module github.com/mikaelim-id/go-apt
 
 go 1.12
 

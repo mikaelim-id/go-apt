@@ -1,7 +1,7 @@
 package model
 
 import (
-	"github.com/payfazz/go-apt/pkg/esfazz"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz"
 	"time"
 )
 

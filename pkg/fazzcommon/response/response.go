@@ -6,9 +6,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/payfazz/go-apt/pkg/fazzcommon/httpError"
-	"github.com/payfazz/go-apt/pkg/fazzcommon/value/content"
-	"github.com/payfazz/go-apt/pkg/fazzcommon/value/header"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/httpError"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/value/content"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/value/header"
 	"github.com/payfazz/go-errors"
 )
 

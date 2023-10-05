@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/payfazz/go-apt/pkg/fazzrouter"
+	"github.com/mikaelim-id/go-apt/pkg/fazzrouter"
 )
 
 func main() {

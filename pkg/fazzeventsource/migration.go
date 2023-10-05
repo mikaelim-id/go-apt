@@ -1,6 +1,6 @@
 package fazzeventsource
 
-import "github.com/payfazz/go-apt/pkg/fazzdb"
+import "github.com/mikaelim-id/go-apt/pkg/fazzdb"
 
 // CreateEventsTable return migration table for event
 func CreateEventsTable(tableName string) *fazzdb.MigrationTable {

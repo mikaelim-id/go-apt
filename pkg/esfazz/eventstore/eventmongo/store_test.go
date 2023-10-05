@@ -3,7 +3,7 @@ package eventmongo
 import (
 	"context"
 	_ "github.com/lib/pq"
-	"github.com/payfazz/go-apt/pkg/esfazz"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"log"

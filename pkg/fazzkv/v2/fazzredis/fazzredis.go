@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/payfazz/go-apt/pkg/fazzkv/v2"
+	"github.com/mikaelim-id/go-apt/pkg/fazzkv/v2"
 )
 
 // Store is abstraction layer redis that wrap store interface with addition

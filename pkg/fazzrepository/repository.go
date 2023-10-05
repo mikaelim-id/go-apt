@@ -4,7 +4,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 )
 
 // RepositoryInterface interface for repository struct

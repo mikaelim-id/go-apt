@@ -2,8 +2,8 @@ package query
 
 import (
 	"context"
-	"github.com/payfazz/go-apt/example/esfazz/account/model"
-	"github.com/payfazz/go-apt/example/esfazz/account/query/repository"
+	"github.com/mikaelim-id/go-apt/example/esfazz/account/model"
+	"github.com/mikaelim-id/go-apt/example/esfazz/account/query/repository"
 )
 
 // AccountQuery is query interface for account

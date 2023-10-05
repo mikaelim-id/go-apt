@@ -1,6 +1,6 @@
 package model
 
-import "github.com/payfazz/go-apt/pkg/fazzdb"
+import "github.com/mikaelim-id/go-apt/pkg/fazzdb"
 
 const (
 	BOOK_BORROWED  = "BORROWED"

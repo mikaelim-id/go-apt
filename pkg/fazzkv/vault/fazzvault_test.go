@@ -3,7 +3,7 @@ package vault
 import (
 	"testing"
 
-	"github.com/payfazz/go-apt/pkg/fazzkv/env"
+	"github.com/mikaelim-id/go-apt/pkg/fazzkv/env"
 	"github.com/stretchr/testify/require"
 )
 

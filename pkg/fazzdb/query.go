@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/payfazz/go-apt/pkg/fazzmonitor/prometheusclient"
+	"github.com/mikaelim-id/go-apt/pkg/fazzmonitor/prometheusclient"
 
 	"github.com/jmoiron/sqlx"
 )

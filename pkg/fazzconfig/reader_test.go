@@ -2,7 +2,7 @@ package fazzconfig
 
 import (
 	"bufio"
-	"github.com/payfazz/go-apt/pkg/fazzconfig/configsource"
+	"github.com/mikaelim-id/go-apt/pkg/fazzconfig/configsource"
 	"github.com/stretchr/testify/require"
 	"os"
 	"testing"

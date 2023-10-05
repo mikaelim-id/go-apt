@@ -1,7 +1,7 @@
 // Deprecated: this package is not longer maintained. please use `fazzeventsource` package instead.
 package esfazz
 
-import "github.com/payfazz/go-apt/pkg/fazzdb"
+import "github.com/mikaelim-id/go-apt/pkg/fazzdb"
 
 // Aggregate is interface for aggregate that can apply event
 type Aggregate interface {

@@ -2,8 +2,8 @@ package model
 
 import (
 	"encoding/json"
-	"github.com/payfazz/go-apt/pkg/esfazz"
-	"github.com/payfazz/go-apt/pkg/fazzdb"
+	"github.com/mikaelim-id/go-apt/pkg/esfazz"
+	"github.com/mikaelim-id/go-apt/pkg/fazzdb"
 	"time"
 )
 

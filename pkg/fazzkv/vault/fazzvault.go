@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/vault/api"
-	"github.com/payfazz/go-apt/pkg/fazzcommon/httpError"
-	"github.com/payfazz/go-apt/pkg/fazzkv"
+	"github.com/mikaelim-id/go-apt/pkg/fazzcommon/httpError"
+	"github.com/mikaelim-id/go-apt/pkg/fazzkv"
 )
 
 type Interface interface {
